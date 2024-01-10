@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/about.css'
-import profilepic from '../assets/dp2.jpeg'
+import profilepic from '../assets/dp3.png'
 import edulogo from '../assets/education.png'
 import arrowlogo from '../assets/arrow.png'
 const About = () => {

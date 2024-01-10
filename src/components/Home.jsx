@@ -13,7 +13,12 @@ const openInNewTab = (url) => {
         }
     }
 const Home = () => {
-
+  const handlecontact = () =>{
+    const contactElement = document.getElementById('contact');
+    if (contactElement) {
+      contactElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
   return (
     <div className='home'>
           <section id="home">
@@ -31,7 +36,7 @@ const Home = () => {
           >
             Download CV
           </button>
-          <button className="btn btn-color-1" href="#contact">
+          <button className="btn btn-color-1" onClick={handlecontact} >
             Contact Info
           </button>
         </div>
